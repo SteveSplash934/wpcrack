@@ -8,7 +8,6 @@ rez.html
 todo.md
 *.csv
 *.json
-*.txt
 test*
 *dev*
 run*
