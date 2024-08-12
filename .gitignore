@@ -1,0 +1,15 @@
+push.bat
+tests/
+screenshots/
+success.txt
+inspect.html
+rez.html
+*.pdf
+todo.md
+*.csv
+*.json
+*.txt
+test*
+*dev*
+run*
+trash*
