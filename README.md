@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Run the script from the command line with the following options:
 
 ```
-usage: wp_crack.py [-h] [-u USERNAME] [-U USERNAME_LIST] [-p PASSWORD] [-P PASSWORD_LIST] [-t TARGET] [-T TARGETS] [-v] [--update] [-x {json,csv,txt}] [-o OUTPUT]
+usage: wpcrack.py [-h] [-u USERNAME] [-U USERNAME_LIST] [-p PASSWORD] [-P PASSWORD_LIST] [-t TARGET] [-T TARGETS] [-v] [--update] [-x {json,csv,txt}] [-o OUTPUT]
 
 WPCrack attempts to crack a WordPress target or list of targets using a defined username and password or a list of usernames and passwords
 
@@ -54,19 +54,19 @@ optional arguments:
 1. **Single username and password**
 
    ```bash
-   python wp_crack.py -u admin -p password123 -t http://example.com/wp-login.php
+   python wpcrack.py -u admin -p password123 -t http://example.com/wp-login.php
    ```
 
 2. **Username and password list**
 
    ```bash
-   python wp_crack.py -U usernames.txt -P passwords.txt -T targets.txt
+   python wpcrack.py -U usernames.txt -P passwords.txt -T targets.txt
    ```
 
 3. **Export results to CSV**
 
    ```bash
-   python wp_crack.py -u admin -p password123 -t http://example.com/wp-login.php -x csv -o results.csv
+   python wpcrack.py -u admin -p password123 -t http://example.com/wp-login.php -x csv -o results.csv
    ```
 
 ## Update
@@ -74,7 +74,7 @@ optional arguments:
 To update the software, use the `--update` flag:
 
 ```bash
-python wp_crack.py --update
+python wpcrack.py --update
 ```
 
 ## Upcoming Features
