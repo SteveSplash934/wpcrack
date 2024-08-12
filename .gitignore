@@ -13,3 +13,5 @@ test*
 *dev*
 run*
 trash*
+*.html
+*temp*
